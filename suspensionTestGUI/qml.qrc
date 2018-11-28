@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>DoubleSpinBox.qml</file>
+        <file>SliderComponent.qml</file>
+        <file>SpinBoxComponent.qml</file>
+        <file>icons/dynamic.png</file>
+        <file>icons/off.png</file>
+        <file>icons/auto.png</file>
+    </qresource>
+</RCC>

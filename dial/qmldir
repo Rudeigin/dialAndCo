@@ -1,0 +1,4 @@
+module ru.fo.dial
+plugin dial
+
+FODial 1.0 qrc:///MyDial.qml

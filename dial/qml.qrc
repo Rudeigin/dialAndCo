@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MyDial.qml</file>
+        <file>icons/dial.png</file>
+    </qresource>
+</RCC>
