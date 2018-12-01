@@ -15,8 +15,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     core.cpp \
-    dialmodel.cpp \
-    server.cpp
+    dialmodel.cpp
 
 RESOURCES += qml.qrc
 
@@ -34,7 +33,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     core.h \
     dialitem.h \
-    dialmodel.h \
-    server.h
+    dialmodel.h
 
 DISTFILES +=

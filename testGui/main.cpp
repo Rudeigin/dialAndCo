@@ -3,7 +3,6 @@
 #include <QQmlContext>
 #include <QQuickView>
 #include "core.h"
-#include <server.h>
 #include <dialmodel.h>
 
 int main(int argc, char *argv[])
@@ -19,8 +18,6 @@ int main(int argc, char *argv[])
     qmlRegisterType<DialModel>("ru.fo.dialcore", 1, 0, "DialModel");
 
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
-
-    Server * server = new Server();
 
     return app.exec();
 }
